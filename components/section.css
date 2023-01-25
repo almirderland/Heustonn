@@ -1,0 +1,50 @@
+.section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 3%;
+}
+.section-text {
+  margin-left: 20px;
+}
+.section-text h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #1a2e35;
+}
+.section-text span {
+  color: #ff4f5a;
+}
+.section-text p {
+  width: 550px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.section-under {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2% 5%;
+}
+.section-under .read {
+  display: flex;
+  align-items: center;
+}
+.section-under .read hr {
+  width: 75px;
+  height: 1.2px;
+  border: none;
+  background-color: #464646;
+}
+.section-under .read a {
+  color: #1d1d1d;
+  margin-right: 15px;
+  font-size: 18px;
+}
+.section-under .section-under-items img:last-child {
+  transform: rotate(180deg);
+}

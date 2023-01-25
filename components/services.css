@@ -1,0 +1,54 @@
+.services {
+  width: 100%;
+  padding: 2% 3%;
+}
+.services h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  position: relative;
+  font-size: 1.75rem;
+  text-align: center;
+}
+.services .hr-header {
+  width: 50px;
+  height: 4px;
+  background-color: #ff4f5a;
+  border-radius: 5px;
+  border: 1px solid #ff4f5a;
+}
+.services p {
+  margin: 10px;
+  text-align: center;
+}
+.services .services-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+.services .services-item .services-item--box {
+  max-width: 25%;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.services .services-item .read {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+.services .services-item .read hr {
+  width: 75px;
+  height: 1.2px;
+  border: none;
+  background-color: #ff4f5a;
+  color: #ff4f5a;
+}
+.services .services-item .read a {
+  color: #ff4f5a;
+  margin-right: 15px;
+  font-size: 18px;
+}

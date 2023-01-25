@@ -1,0 +1,38 @@
+p,
+span,
+h1,
+h3,
+h4 {
+  font-family: Poppins, sans-serif;
+}
+.header {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5% 5%;
+}
+.header span {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+.header div a {
+  padding: 10px 30px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+  position: relative;
+}
+.header div .hr-header {
+  width: 17px;
+  height: 4px;
+  background-color: #ff4f5a;
+  border-radius: 5px;
+  border: 1px solid #ff4f5a;
+  position: absolute;
+  top: 5.5%;
+  left: 36.5%;
+}
